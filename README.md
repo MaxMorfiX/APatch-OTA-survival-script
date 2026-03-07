@@ -26,7 +26,7 @@ cp 97-apatch.sh /system/addon.d
 
 from termux:
 ```
-unzip APatch.apk #replace with the actual filename
+unzip APatch.apk /APatch #replace with the actual filename
 su
 remount /
 cp 97-apatch.sh /system/addon.d
