@@ -22,7 +22,7 @@ su
 remount /
 cp 97-apatch.sh /system/addon.d
 ```
-## 2. Unzip the APatch.zip file (from the official APatch github) and place it in /system/addon.d/APatch
+## 2. Unzip the APatch.zip file (from the official [APatch github](https://github.com/bmax121/APatch)) and place it in /system/addon.d/APatch
 
 # Update to a newer APatch
 
