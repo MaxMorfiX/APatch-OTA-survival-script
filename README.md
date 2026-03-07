@@ -22,7 +22,16 @@ su
 remount /
 cp 97-apatch.sh /system/addon.d
 ```
-## 2. Unzip the APatch.zip file (from the official [APatch github](https://github.com/bmax121/APatch)) and place it in /system/addon.d/APatch
+## 2. Unzip the APatch.apk file (from the official [APatch github](https://github.com/bmax121/APatch)) and place it in /system/addon.d/APatch
+
+from termux:
+```
+unzip APatch.apk #replace with the actual filename
+su
+remount /
+cp 97-apatch.sh /system/addon.d
+```
+or you can just run the update-apatch-ota.sh script which should extract the neccessary files from your already installed APatch installation and move them in the right folder automatically
 
 # Update to a newer APatch
 
