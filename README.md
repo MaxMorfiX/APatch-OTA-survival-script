@@ -9,7 +9,7 @@ This addon.d script ensures APatch survives LineageOS OTA updates on A-only devi
 
 # Installation
 
-## 1. Copy the 97-apatch.sh to the `/system/addon.d` folder on your device (root required)
+## 1. Copy the `97-apatch.sh` to the `/system/addon.d` folder on your device (root required)
 either via adb:
 ```
 adb root
@@ -35,4 +35,4 @@ or you can just run the update-apatch-ota.sh script which should extract the nec
 
 # Update to a newer APatch
 
-You can either manually replace the APatch folder in addon.d with the new version of APatch, or do it automatically if you run update-apatch-ota.sh from termux. You can even add it as a shortcut to your homescreen if you put the script in `/.termux/widget/dynamic_shortcuts` and then add it as a wiget to your homescreen with [Termux Widget](https://github.com/termux/termux-widget).
+You can either manually replace the APatch folder in addon.d with the new version of APatch, or do it automatically if you run `update-apatch-ota.sh` from termux. You can even add it as a shortcut to your homescreen if you put the script in `/.termux/widget/dynamic_shortcuts` and then add it as a wiget to your homescreen with [Termux Widget](https://github.com/termux/termux-widget).
