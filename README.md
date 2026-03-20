@@ -31,7 +31,7 @@ su
 remount /
 cp 97-apatch.sh /system/addon.d
 ```
-or you can just run the ```update-apatch-ota.sh``` script which should extract the neccessary files from your already installed APatch installation and move them in the right folder automatically
+or you can just run the ```update-apatch-ota.sh``` script which should extract the neccessary files from your already existing APatch installation and move them in the right folder automatically
 
 # Update to a newer APatch version
 
