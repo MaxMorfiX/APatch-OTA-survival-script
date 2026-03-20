@@ -31,8 +31,8 @@ su
 remount /
 cp 97-apatch.sh /system/addon.d
 ```
-or you can just run the update-apatch-ota.sh script which should extract the neccessary files from your already installed APatch installation and move them in the right folder automatically
+or you can just run the ```update-apatch-ota.sh``` script which should extract the neccessary files from your already installed APatch installation and move them in the right folder automatically
 
-# Update to a newer APatch
+# Update to a newer APatch version
 
 You can either manually replace the APatch folder in addon.d with the new version of APatch, or do it automatically if you run `update-apatch-ota.sh` from termux. You can even add it as a shortcut to your homescreen if you put the script in `/.termux/widget/dynamic_shortcuts` and then add it as a wiget to your homescreen with [Termux Widget](https://github.com/termux/termux-widget).
