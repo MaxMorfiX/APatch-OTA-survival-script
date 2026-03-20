@@ -5,7 +5,7 @@ This addon.d script ensures APatch survives LineageOS OTA updates on A-only devi
 # Requirements
 - A-only device with LineageOS (or any ROM supporting addon.d)
 - APatch already installed
-- extracted APatch apk/zip placed in `/system/addon.d/APatch/` (explained later in the guide):
+- extracted APatch apk/zip placed in `/system/addon.d/APatch/` (explained later in the guide)
 
 # Installation
 
